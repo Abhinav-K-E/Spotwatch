@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop watch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="stop-watch">
+            <div class="txt">
+                Stopwatch
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="50" viewBox="0 0 32 32"><path d="M22,6.7V5a3,3,0,0,0-3-3H17a3,3,0,0,0-3,3V6.7a12,12,0,0,0-6.06,4.75,1,1,0,1,0,1.68,1.1,10,10,0,1,1,4.21,14.54A1,1,0,0,0,13,28.91,12,12,0,1,0,22,6.7Z"/><path d="M23.78 13.38a1 1 0 0 0-1.4-.16l-2.81 2.24A2.89 2.89 0 0 0 18 15a3 3 0 1 0 3 3 2.93 2.93 0 0 0-.18-1l2.8-2.24A1 1 0 0 0 23.78 13.38zM11 17H5a1 1 0 0 1 0-2h6a1 1 0 0 1 0 2zM11 21H3a1 1 0 0 1 0-2h8a1 1 0 0 1 0 2zM11 25H5a1 1 0 0 1 0-2h6a1 1 0 0 1 0 2z"/></svg>
+            </div>
+            <h1 class="wow" id="display">00 : 00 : 00</h1>
+            <div class="item">
+                <button id="start" onclick="start()">
+                    start
+                </button>
+                <button id="stop" onclick="stop()">
+                    Stop
+                </button>
+                <button id="reset" onclick="reset()">
+                    Reset
+                </button>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
